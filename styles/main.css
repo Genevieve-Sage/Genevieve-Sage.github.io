@@ -12,5 +12,11 @@ h1 {
 .smaller-image {
     width: 100px;
 }
+
+.thin-darkorchid-border {
+    border-color: darkorchid;
+    border-width: 5px;
+    border-style: solid;
+}
     
 </style>

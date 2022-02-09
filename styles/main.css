@@ -6,9 +6,10 @@ h1 {
     font-weight: bold;
     color: darkorchid;
     font-size: 40px;
+    text-align: center;
 }
-.img Gen_Sage.jpeg {
+.img Gen_Sage.jpeg{
     width: 100px;
-    
 }
+    
 </style>

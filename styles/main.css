@@ -39,7 +39,9 @@ h1 {
 }
 .smaller-image {
     width: 100px;
-    align-items: center;
+}
+.aligncenter {
+    text-align: center;
 }
 
 .thin-aqua-border {

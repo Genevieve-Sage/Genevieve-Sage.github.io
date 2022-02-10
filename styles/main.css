@@ -23,7 +23,7 @@ header li {
     margin: 20px;
 }
 header li a {
-    color: blue;
+    color: lightgoldenrodyellow;
     text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 .thin-aqua-border {
-    border-color: aqua;
+    border-color: blue;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;

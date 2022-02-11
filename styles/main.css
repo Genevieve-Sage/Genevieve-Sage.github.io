@@ -56,6 +56,10 @@ h5 {
     color: purple;
     text-align: center;
 }
+h6 {
+    color: purple;
+    text-align: justify;
+}
 
 .smaller-image {
     width: 200px;

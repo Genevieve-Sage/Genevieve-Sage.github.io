@@ -52,6 +52,11 @@ h4 {
     color: darkviolet;
     text-align: center;
 }
+h5 {
+    color: purple;
+    text-align: center;
+}
+
 .smaller-image {
     width: 200px;
     border-color: violet;

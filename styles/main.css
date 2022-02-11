@@ -60,7 +60,9 @@ h6 {
     color: purple;
     text-align: justify;
 }
-
+.aligncenter {
+    text-align: center;
+}
 .smaller-image {
     width: 200px;
     border-color: violet;
@@ -75,9 +77,7 @@ h6 {
     margin-right: auto;
     width: 50%;
 }
-  .aligncenter {
-      text-align: center;
-  }  
+
 p {
     text-align: center;
 }

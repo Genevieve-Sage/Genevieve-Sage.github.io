@@ -49,6 +49,9 @@ h2 {
     border-style: solid;
     border-radius: 10px;
 }
+p {
+    text-align: center;
+}
 
  #page-container {
      position: relative;

@@ -75,7 +75,9 @@ h6 {
     margin-right: auto;
     width: 50%;
 }
-    
+  .aligncenter {
+      text-align: center;
+  }  
 p {
     text-align: center;
 }

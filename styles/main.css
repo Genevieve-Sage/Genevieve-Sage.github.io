@@ -36,12 +36,13 @@ h1 {
     color: violet;
     font-size: 40px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
     color: darkviolet; 
     text-align: center;
 }
-em {
+em {    
     text-align: center;
 }
 h3 {

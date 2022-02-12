@@ -49,10 +49,12 @@ em {
 h3 {
     color: darkviolet;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h4 {
     color: darkviolet;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h5 {
     color: purple;
@@ -83,6 +85,7 @@ h6 {
 p {
     text-align: justify;
     font-size: medium;
+    font-family: sans-serif;
 }
 
  #page-container {

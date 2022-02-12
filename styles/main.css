@@ -74,7 +74,16 @@ h6 {
     border-style: solid;
     border-radius: 10px;
 }
-
+a.button, div.container {
+    float: left;
+}
+a.button {
+    background-color: violet;
+    border: 1px solid purple;
+    color: lightpink;
+    margin-right: 10px;
+    padding: 20px 20px 20px 20px;
+}
 .center {
     display: block;
     margin-left: auto;

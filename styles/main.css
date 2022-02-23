@@ -23,7 +23,7 @@ header li {
     margin: 20px;
 }
 header li a {
-    color: aqua;
+    color: white;
     text-decoration: none;
 }
 
@@ -33,13 +33,13 @@ body{
 
 h1 {
     font-weight: bold;
-    color: lightgreen;
+    color: rgb(211, 23, 164);
     font-size: 40px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
-    color: darkgreen; 
+    color: rgb(218, 66, 192); 
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -95,7 +95,7 @@ text-align: center;
 .myLinks > li {
     margin: 2rem 0;
     padding: 1rem 1rem;
-    background: pink;
+    background: rgb(185, 18, 190);
     color: black;
     border-radius: 10px;
 }

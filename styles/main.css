@@ -23,23 +23,23 @@ header li {
     margin: 20px;
 }
 header li a {
-    color: lightgoldenrodyellow;
+    color: aqua;
     text-decoration: none;
 }
 
 body{ 
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
 
 h1 {
     font-weight: bold;
-    color: violet;
+    color: lightgreen;
     font-size: 40px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
-    color: darkviolet; 
+    color: darkgreen; 
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

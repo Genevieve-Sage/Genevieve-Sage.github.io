@@ -54,6 +54,40 @@
 
       <h4>How I solved this problem in an elegant way</h4>
 
+      <p>The toUppercase() method returns the calling string value converted to uppercase. Image below;
+      </p>
+
+      <img class="center" src="../images/problem-solving/problemsolve1.jpeg" alt="toUpperCase()">
+      
+      <p>Another example demonstrattes how easy it is to convert to upper case;
+      </p>
+
+      <img class="center" src="../images/problem-solving/ps2.png" alt="second example">
+
+      <p><strong>Hint:  </strong>If you want to convert all letters in a string to lowercase instead, use the similar toLowerCase() method.</p>
+
+      <p><strong>How to convert only the first letter of a string</strong></p>
+
+      <p>Converting just the first letter of a string to an equivalent uppercase value requires three steps:
+         <ol>
+           <li>Locate the first letter and call toUpperCase() on it specifically
+           </li>
+           <li>Trim the first character off the remainder of the string, producing a new string without the first character
+           </li>
+           <li>Combine the two strings together</li>
+         </ol>
+         The first part of this is easy, simply use the <em>index</em> of the first character of the string (using substring notation [0]), and capitilize it by applying toUpperCase().
+      </p>
+      <p>For the second part use the substring() method to produce a string that consists of all the characters but the first.
+      </p>
+      <p>The third step is just simple concatenation - combine the two strings together using the + <em>operator.</em>
+      </p>
+      <p>Below is an example of how to accomplish this in JavaScript:
+      </p>
+      <img class="center" src="../images/problem-solving/ps3.png" alt="Converting the first letter of a string to uppercase">
+
+      <p>This was in interesting process, one that I really enjoyed completing. I know there is still so much I have to learn, but with practice I will win!</p>
+      <p>I have learned, through this elegant process, that there are many ways to problem solve, but the best way is to not give up! The best way is to use the problem solving techniques, because there is always something that works.</p>
 
         
 

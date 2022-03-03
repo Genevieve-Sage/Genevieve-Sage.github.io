@@ -95,7 +95,7 @@ text-align: center;
 .myLinks > li {
     margin: 2rem 0;
     padding: 1rem 1rem;
-    background: rgb(185, 18, 190);
+    background: black;
     color: black;
     border-radius: 10px;
 }

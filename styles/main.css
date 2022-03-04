@@ -23,12 +23,12 @@ header li {
     margin: 20px;
 }
 header li a {
-    color: rgb(96, 240, 108);
+    color: #00d9ff;
     text-decoration: none;
 }
 
 body{ 
-    background-color: rgb(96, 240, 108);
+    background-color: #00d9ff;
 }
 
 h1 {

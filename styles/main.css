@@ -1,111 +1,115 @@
+/* $ desktop: 1200px;
+$ laptop: 1024px;
+$ tablet: 768px;
+$ mobile: 320px; */
+
 body {
-    height: 125vh;
-    margin-top: 80px;
-    padding: 30px;
-    background-size: cover;
-    font-family: sans-serif;
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: sans-serif;
 }
 header {
-    background-color: black;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 5px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 25px 0 black;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
 }
 header* {
-    display: inline;
+  display: inline;
 }
 header li {
-    margin: 20px;
+  margin: 20px;
 }
 header li a {
-    color: rgb(243, 14, 186);
-    text-decoration: none;
+  color: rgb(243, 14, 186);
+  text-decoration: none;
 }
 
-body{ 
-    background-color: #00d9ff;
+body {
+  background-color: #00d9ff;
 }
 
 h1 {
-    font-weight: bold;
-    color: rgb(243, 14, 186);
-    font-size: 40px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(255, 183, 255, 0.8)
+  font-weight: bold;
+  color: rgb(243, 14, 186);
+  font-size: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(255, 183, 255, 0.8);
 }
 h2 {
-    color: rgb(201, 47, 175); 
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(201, 47, 175);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-em {    
-    text-align: center;
+em {
+  text-align: center;
 }
 h3 {
-    color: darkviolet;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkviolet;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h4 {
-    color: darkviolet;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkviolet;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h5 {
-    color: purple;
-    text-align: center;
+  color: purple;
+  text-align: center;
 }
 h6 {
-    color: purple;
-    text-align: justify;
+  color: purple;
+  text-align: justify;
 }
 .aligncenter {
-    text-align: center;
+  text-align: center;
 }
 .smaller-image {
-    width: 200px;
-    border-color: violet;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 10px;
+  width: 200px;
+  border-color: violet;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
-
 .myLinks {
-list-style: none;
-text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
 .myLinks > li {
-    margin: 2rem 0;
-    padding: 1rem 1rem;
-    background: black;
-    color: black;
-    border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1rem 1rem;
+  background: black;
+  color: black;
+  border-radius: 10px;
 }
 
-.myLinks > li > a{
-    color: white;
-    text-decoration: none;
+.myLinks > li > a {
+  color: white;
+  text-decoration: none;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 p {
-    text-align: justify;
-    font-size: medium;
-    font-family: sans-serif;
+  text-align: justify;
+  font-size: medium;
+  font-family: sans-serif;
 }
 
 #inner hr {
@@ -114,11 +118,10 @@ p {
 }
 
 #box-container {
-  background:rgb(218, 66, 192);
+  background: rgb(218, 66, 192);
   height: 500px;
   display: flex;
   justify-content: space-evenly;
-
 }
 
 #box-1 {
@@ -126,7 +129,6 @@ p {
   width: 50%;
   height: 50%;
   align-self: center;
-  
 }
 
 #box-2 {
@@ -135,19 +137,37 @@ p {
   height: 50%;
 }
 
- #page-container {
-     position: relative;
-     min-height: 100vh;
- }   
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 
- #content-wrap {
-     padding-bottom: 2.5rem;
- }
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
 
- #footer {
-     position: absolute;
-     bottom: 0;
-     width: 100%;
-     height: 2.5rem;
-     color: violet;
- }
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: violet;
+}
+
+@media (max-width: 500px) {
+  body {
+    color: lightblue;
+  }
+}
+
+@media (orientation: landscape) {
+  .title {
+    color: red;
+  }
+}
+
+@media (orientation: portrait) {
+  h2 {
+    color: cyan;
+  }
+}

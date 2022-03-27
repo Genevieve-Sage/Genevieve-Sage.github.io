@@ -161,7 +161,7 @@ p {
 }
 
 @media (orientation: landscape) {
-  .title {
+  h1 {
     color: red;
   }
 }

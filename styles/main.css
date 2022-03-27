@@ -156,7 +156,7 @@ p {
 
 @media (max-width: 500px) {
   body {
-    color: lightblue;
+    color: orangered;
   }
 }
 
@@ -168,6 +168,6 @@ p {
 
 @media (orientation: portrait) {
   h2 {
-    color: cyan;
+    color: blue;
   }
 }
